@@ -613,6 +613,100 @@
 		</div>
 	</div>
 	
+<!---utk buat horizontal tab--->
+	<br/>
+<div class="row">
+	<div class="col-md-12">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#a" data-toggle="tab">Item A</a></li>
+			<li><a href="#b" data-toggle="tab">Item B</a></li>
+			<li><a href="#c" data-toggle="tab">Item C</a></li>
+			<li><a href="#d" data-toggle="tab">Item D</a></li>			
+		</ul>
+
+
+		<div class="tab-content">
+			<div class="tab-pane active" id="a">
+				<table class="table table-striped table-bordered table-condensed table-hover"><!---utk buat stripe grey white dlm table--->
+						<thead>
+						<tr>
+							<td class="text-center">Bil</td>
+							<td>Nama</td>
+							<td>Umur</td>
+				
+						</tr>		
+						</thead>
+						<tbody>
+							<tr>
+								<td class="text-center">1</td>
+								<td>Kham</td>
+								<td>17</td>
+								<td><span class="glyphicon glyphicon-folder-open" style="color: #E02222;"></span></td>
+							</tr>
+							<tr>
+								<td class="text-center">2</td>
+								<td>Maya</td>
+								<td>15</td>
+								<td><span class="glyphicon glyphicon-folder-open"></span></td>
+							</tr>
+							<tr>
+								<td class="text-center">3</td>
+								<td>Sha</td>
+								<td>17</td>
+								<td><span class="gliphicon gliphicon-folder-open"></span></td>
+							</tr>
+							<tr>
+								<td class="text-center">4</td>
+								<td>Ecah</td>
+								<td>15</td>
+							</tr>		
+						</tbody>
+					</table>
+			</div>
+		
+		
+			<div class="tab-pane" id="b">
+				<form class="form-horizontal"> <!---buat label n box dlm 1 baris--->
+								<div class="form-group"><br/>
+									<label class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-9">
+										<input type="email" class="form-control" placeholder="Email..">
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Password</label>
+									<div class="col-sm-9">
+										<input type="password" class="form-control" placeholder="Password..">
+									</div>
+								</div>
+					
+								<div class="form-group">
+									<label class="col-sm-offset-2 col-sm-10"> <!---offset utk buang column dpn yg xmo guna--->
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"/> Remember me
+											</label>
+										</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="col-sm-offset-2 col-sm-10">
+										<button type="button" class="btn btn-default">Submit</button>	
+									</label>
+								</div>
+					</form>
+			</div>
+			
+			<div class="tab-pane" id="c">Pane C</div>	
+			
+			<div class="tab-pane" id="d">Pane D</div>			
+		
+		</div>	
+
+</div>
+<!---end of horizontal tab--->
+
 	<script src="bower_components/jquery/dist/jquery.min.js" type="application/javascript"></script> <!--- script better letak sblm tutup body--->
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 				
